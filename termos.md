@@ -1,0 +1,142 @@
+# Termos de Uso do Lembrô
+
+**Aplicativo:** Lembrô (`com.damcode.lembro`)
+**Última atualização:** 31 de julho de 2026
+
+> ⚠️ **Rascunho técnico, pendente de revisão jurídica.** O conteúdo abaixo descreve com
+> precisão o que o aplicativo faz e não faz, e segue as cláusulas apontadas na
+> [análise de mercado](../ANALISE.md) (§10.1). **Não substitui a revisão de um advogado** —
+> em especial a cláusula 6 (limitação de responsabilidade), que em relação de consumo é
+> nula se redigida de forma absoluta.
+
+---
+
+## 1. O que o Lembrô é — e o que ele não é
+
+O Lembrô é uma **ferramenta de organização e lembretes** de ações que se repetem: tomar
+remédio, beber água, medir a pressão, caminhar, trocar um curativo.
+
+**O Lembrô não é dispositivo médico.** Ele não diagnostica, não trata, não prescreve, não
+calcula dose, não interpreta nenhum dado de saúde e não emite recomendação clínica. Ele
+registra que **você fez** uma tarefa, no horário em que fez — nada além disso. Não há como
+anotar valores como pressão, glicemia ou peso, por decisão de produto.
+
+**O Lembrô não substitui** a orientação do seu médico, a bula do medicamento, a receita nem
+o acompanhamento de um profissional de saúde. Se houver conflito entre o que está no
+aplicativo e o que o profissional orientou, **vale a orientação do profissional**.
+
+Ao usar o aplicativo você concorda com estes Termos. Se não concordar, não o utilize.
+
+## 2. Sua responsabilidade ao usar
+
+Você é responsável por:
+
+- **Cadastrar corretamente** nomes, horários, dias e a forma de repetição de cada lembrete.
+  O aplicativo avisa no horário que você escolheu; ele não sabe qual é o horário certo.
+- **Manter as permissões do sistema ativas**, em especial a de notificação. Se você negar ou
+  revogar essa permissão, o aplicativo continua funcionando, mas **deixa de avisar**.
+- **Manter uma cópia de segurança**, se o histórico importar para você. Os dados ficam apenas
+  no seu aparelho: perder ou formatar o celular sem uma cópia salva significa perder o
+  histórico, e não temos como recuperá-lo.
+
+## 3. Sobre os avisos: o que pode atrasar, e o que não garantimos
+
+Isto é a parte mais importante destes Termos, e está escrita sem rodeio:
+
+- Os avisos são agendados no seu celular, pelo sistema operacional. **Eles podem atrasar
+  alguns minutos**, e podem falhar por causas fora do nosso alcance: economia de bateria,
+  otimização agressiva do fabricante, "forçar parada" do aplicativo, celular desligado, sem
+  bateria, no modo avião ou com as notificações silenciadas.
+- Deliberadamente **não usamos alarme exato nem alarme em tela cheia.** São permissões que o
+  Android restringe a despertadores e chamadas; usá-las impediria a publicação do aplicativo.
+  A consequência honesta é a do item acima: o aviso é confiável, não é infalível.
+- **Para medicação crítica, mantenha uma redundância.** Um segundo alarme no relógio, uma
+  caixa organizadora semanal, ou outra pessoa avisando. Não use o Lembrô como única barreira
+  entre você e uma dose que não pode ser perdida.
+- Não garantimos funcionamento ininterrupto nem ausência de falhas.
+
+## 4. Etiquetas NFC
+
+As etiquetas NFC são **opcionais**. O aplicativo funciona inteiro sem elas: o botão do card
+registra tudo. Se você usar etiquetas:
+
+- Elas são adesivos comuns, comprados por você de quem você escolher. Não as fornecemos nem
+  respondemos pela qualidade, durabilidade ou funcionamento delas.
+- A etiqueta guarda apenas um identificador aleatório criado pelo aplicativo, nunca dados de
+  saúde — ver a [Política de Privacidade](politica-de-privacidade.md).
+- Ler etiqueta exige que o NFC do celular esteja ligado e que o aparelho tenha NFC. Nem todo
+  celular tem.
+- A opção "só pela etiqueta" faz o registro exigir o adesivo. Se você perder ou danificar a
+  etiqueta, desligue essa opção nas configurações do lembrete para voltar a registrar pelo
+  botão.
+
+## 5. Plano gratuito e plano pago
+
+O Lembrô é gratuito e funcional. **Nunca dependem de pagamento:** criar quantos lembretes
+você quiser, receber os avisos, registrar (pelo botão ou pela etiqueta), usar o aplicativo
+sem internet e salvar uma cópia de segurança completa.
+
+O **Lembrô completo** é opcional e libera: etiquetas sem limite, histórico visível além dos
+últimos 30 dias, o nível insistente do aviso e o resumo do período. Se o plano expirar,
+**nada é apagado**: o que você já criou continua funcionando e registrando, e o histórico
+completo permanece no aparelho e na cópia de segurança.
+
+Os preços exibidos vêm da própria loja de aplicativos, na moeda do seu país.
+
+## 6. Limitação de responsabilidade
+
+Nos limites permitidos pela legislação brasileira — e **ressalvados os direitos que o Código
+de Defesa do Consumidor garante e que não podem ser afastados** —, nossa responsabilidade
+por danos decorrentes do uso do aplicativo fica limitada ao valor que você efetivamente pagou
+por ele nos 12 meses anteriores ao fato.
+
+Não respondemos por: falha do sistema operacional ou do fabricante do aparelho, perda de
+dados por falta de cópia de segurança, atraso ou ausência de aviso causada pelas situações do
+item 3, decisões de saúde tomadas com base no aplicativo, nem pelo funcionamento de
+etiquetas de terceiros.
+
+Esta cláusula não afeta nossa responsabilidade em caso de dolo ou culpa grave.
+
+## 7. Compras, renovação, cancelamento e arrependimento
+
+- Quem processa o pagamento é a **loja de aplicativos** (Google Play ou App Store), que atua
+  como vendedora. Não recebemos nem armazenamos dados do seu pagamento.
+- **Assinaturas renovam automaticamente** até que você cancele. O cancelamento é feito na
+  própria loja, e você continua com acesso até o fim do período já pago.
+- A **compra única** ("uma vez só") não renova e não expira.
+- **Direito de arrependimento:** compras feitas à distância podem ser desfeitas em até 7 dias
+  corridos, conforme o artigo 49 do Código de Defesa do Consumidor. O pedido de reembolso é
+  processado pela loja, que tem política própria — se ela recusar um pedido dentro desse
+  prazo, fale conosco pelo contato abaixo.
+
+## 8. Menores de idade
+
+O aplicativo não é destinado a menores de 13 anos. Um responsável pode usar o Lembrô para
+organizar a rotina de uma criança ou adolescente, permanecendo responsável pelo conteúdo
+cadastrado e pelos dados no aparelho.
+
+## 9. Mudanças nestes Termos
+
+Se estes Termos mudarem de forma relevante, avisaremos **antes** de a mudança valer, por esta
+página e pelos canais da loja, com a data alterada no topo. Mudança silenciosa de regra é
+exatamente o que este aplicativo não faz.
+
+Em especial: se alguma versão futura passar a enviar dados para fora do aparelho, isso será
+anunciado antes, exigirá o seu consentimento específico na tela e nunca será ligado por
+padrão.
+
+## 10. Lei aplicável e foro
+
+Estes Termos são regidos pela legislação brasileira. Para o consumidor, fica assegurado o
+foro do seu domicílio, conforme o Código de Defesa do Consumidor, independentemente de
+qualquer disposição em contrário.
+
+## Contato
+
+`moizezhenrique@gmail.com`
+
+---
+
+*Documento mantido em [docs/legal/termos-de-uso.md](termos-de-uso.md). A versão publicada
+precisa estar acessível numa URL pública, junto da
+[Política de Privacidade](politica-de-privacidade.md).*
