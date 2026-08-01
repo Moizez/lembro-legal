@@ -128,11 +128,14 @@ editar nada.
 com o nome da pessoa. Não existe modo invisível.
 
 **Para desligar:** Configurações → Quem me acompanha → Remover. **Um toque**, sem
-confirmação em cascata, e o acesso é cortado imediatamente no servidor. O envio para o
-espelho para na hora.
+confirmação em cascata. O acesso é cortado na hora, o envio para. E o aplicativo **apaga da
+nuvem tudo o que já tinha enviado** — retirar o consentimento não deixa rastro para trás.
 
-**Retenção:** cada dia enviado é **apagado automaticamente após 90 dias** no servidor. O seu
-histórico completo continua morando só no seu aparelho.
+**Retenção:** cada dia enviado é **apagado depois de 90 dias**. Quem apaga é o próprio
+aplicativo, na primeira vez que ele abrir com internet depois do vencimento — não há
+servidor nosso rodando sozinho. Consequência honesta: se o aplicativo for desinstalado sem
+que você use o Remover, o que já subiu pode permanecer lá; nesse caso, escreva para o
+contato no topo e apagamos. O seu histórico completo continua morando só no seu aparelho.
 
 **Base legal:** o seu **consentimento** (LGPD, art. 11, I — dado sensível), colhido de forma
 específica e destacada na tela de autorização. Revogá-lo é o botão Remover.
@@ -224,7 +227,7 @@ diretamente, sem depender de nós e sem prazo de espera:
 | **Corrigir** | Editar o lembrete, ou corrigir/apagar um registro no histórico |
 | **Portabilidade** | O arquivo da cópia de segurança é JSON aberto, não um formato fechado |
 | **Eliminar** | Apagar o lembrete, ou desinstalar o aplicativo — desinstalar remove o banco de dados inteiro |
-| **Eliminar o espelho do acompanhamento** | Configurações → Quem me acompanha → Remover corta o acesso na hora; o que já subiu se apaga sozinho em até 90 dias. Para eliminação imediata do que está no servidor, escreva para o contato no topo |
+| **Eliminar o espelho do acompanhamento** | Configurações → Quem me acompanha → **Remover**: corta o acesso e apaga da nuvem tudo o que já foi enviado, no mesmo toque |
 | **Revogar consentimento** | Do acompanhamento: o botão Remover. Do resto: desinstalar — não há mais nada nosso para revogar |
 
 Se ainda assim você quiser falar conosco sobre privacidade, use o contato no topo.
@@ -234,8 +237,10 @@ Se ainda assim você quiser falar conosco sobre privacidade, use o contato no to
 Os dados ficam no seu aparelho pelo tempo que você quiser. **Desinstalar o aplicativo apaga
 o banco de dados.** Não há cópia nossa, portanto não há nada que sobreviva à desinstalação —
 exceto os arquivos de cópia de segurança que você mesmo tenha guardado em outro lugar e, se
-você usa o acompanhamento, os dias já enviados ao espelho, que expiram sozinhos em até 90
-dias.
+você usa o acompanhamento, os dias já enviados ao espelho. **Se você usa o acompanhamento e
+vai desinstalar, use antes o Remover**: é ele que apaga o espelho na nuvem. Desinstalar sem
+isso deixa lá o que já subiu, e a eliminação passa a depender de um pedido pelo contato no
+topo.
 
 ## Segurança
 
