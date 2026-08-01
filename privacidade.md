@@ -1,27 +1,34 @@
 # Política de Privacidade do Lembrô
 
 **Aplicativo:** Lembrô (`com.damcode.lembro`)
-**Última atualização:** 31 de julho de 2026
+**Última atualização:** 1º de agosto de 2026
 
 ---
 
 ## Em uma frase
 
-**O Lembrô não coleta, não envia e não armazena os seus dados fora do seu celular.** Não há
-cadastro, não há conta, não há servidor nosso. O que você registra fica no aparelho, e só
-sai dele se **você** escolher compartilhar.
+**O que você registra fica no seu celular, e só sai dele se você autorizar.** Não há
+cadastro, não há conta, não há servidor nosso com os seus dados. As três situações em que
+algo sai do aparelho — salvar uma cópia, enviar um resumo e o acompanhamento por um
+responsável — são todas iniciadas e autorizadas por **você**, e estão descritas uma a uma
+abaixo.
 
 O resto deste documento detalha isso, porque a lei pede detalhe — mas a frase acima é a
 regra inteira.
 
 ## Quem é o responsável
 
-Este aplicativo é desenvolvido e mantido por **DamCode**.
+Este aplicativo é desenvolvido e mantido por **Carlos Moisés Batista Henrique**, sob o nome
+**DamCode**, desenvolvedor pessoa física, no Brasil.
 
-**Contato para qualquer questão de privacidade, inclusive os pedidos previstos na LGPD:**
+**Canal para qualquer questão de privacidade, inclusive os pedidos previstos na LGPD:**
 `moizezhenrique@gmail.com`
 
-Respondemos em até 15 dias.
+Respondemos em até 15 dias, o prazo do artigo 19 da LGPD.
+
+**Sobre o encarregado (DPO):** como agente de tratamento de pequeno porte, e nos termos da
+Resolução CD/ANPD nº 2/2022, não há indicação formal de encarregado — mas o canal de comunicação
+acima existe, é atendido, e é por ele que qualquer pedido, dúvida ou reclamação deve chegar.
 
 ## Que dados o aplicativo guarda, e onde
 
@@ -55,11 +62,16 @@ dado **não circule**:
   também não temos interesse nisso: não é assim que este aplicativo se sustenta.
 - Ele não é compartilhado com farmácias, planos de saúde, laboratórios ou anunciantes.
 
-Como o dado nunca sai do seu aparelho, **não realizamos tratamento desses dados** no sentido
-do artigo 5º, X da LGPD — a não ser nas duas situações que você mesmo dispara, descritas
-abaixo.
+**Nós não acessamos esses dados.** Vale ser preciso aqui, porque é fácil escrever bonito e
+impreciso: o artigo 5º, X da LGPD define "tratamento" de forma ampla, e a lista inclui
+*armazenamento*. Armazenamento existe — **no seu aparelho**. O que não existe é acesso nosso:
+não recebemos cópia, não temos como consultar, exportar ou apagar o conteúdo dos seus
+lembretes. Quem decide o que registrar e o que apagar é você, no aparelho.
 
-## As duas vezes em que algo sai do aparelho — e você decide as duas
+Isso não é detalhe de redação: é o que faz as três situações abaixo — as únicas em que algo
+sai do aparelho — serem **disparadas por você**, e não por nós.
+
+## As três vezes em que algo sai do aparelho — e você decide as três
 
 ### 1. Salvar uma cópia de segurança
 
@@ -78,6 +90,52 @@ e abre a folha de compartilhamento do próprio sistema, para **você** escolher 
 Na tela Acompanhamento, "Enviar resumo" monta um **texto** com o que aconteceu e abre a mesma
 folha do sistema. Você escolhe se manda, e para quem. Nós não vemos o conteúdo nem o
 destinatário.
+
+### 3. O acompanhamento por um responsável — opcional, e o único que usa a nuvem
+
+Um filho, parente ou cuidador pode, **com a sua autorização explícita**, acompanhar de longe
+se os seus horários foram registrados. É a única função do aplicativo que envia algo pela
+internet, e ela **nasce desligada**: só passa a existir depois que você toca em "Autorizar"
+na sua tela, vendo o nome de quem pediu.
+
+**O que viaja — e nada além disto:**
+
+| Dado | Exemplo |
+|---|---|
+| Nome do lembrete | "Losartana" |
+| Horário previsto | 08:00 |
+| Horário registrado, ou a ausência dele | registrado às 08:12 / não registrado |
+| Como foi registrado | pela etiqueta ou pelo botão |
+| O dia a que isso se refere | 2026-08-01 |
+
+**O que nunca viaja:** o campo de detalhe e anotações (onde se escreve dosagem), os nomes das
+suas etiquetas, suas configurações, sua localização — que o aplicativo nem coleta — e o
+histórico anterior à autorização.
+
+**Onde isso fica:** em um banco de dados do **Google Firebase (Firestore)**, contratado por
+nós como operador, em servidor localizado em **São Paulo, Brasil** (região
+`southamerica-east1`). A identidade dos aparelhos é **anônima**: um código aleatório criado
+pelo Firebase, sem nome, e-mail ou telefone — continua não existindo cadastro. O tratamento
+feito pelo Google como operador é regido pela política dele:
+https://firebase.google.com/support/privacy
+
+**Quem lê:** somente os aparelhos que **você** autorizou, um a um, pelo código de pareamento.
+A autorização é verificada pelo servidor a cada leitura — não é promessa do aplicativo, é
+regra do banco. Quem acompanha **vê e não mexe**: não pode registrar por você, não pode
+editar nada.
+
+**Você fica sabendo:** enquanto alguém acompanha, a tela inicial mostra um selo permanente
+com o nome da pessoa. Não existe modo invisível.
+
+**Para desligar:** Configurações → Quem me acompanha → Remover. **Um toque**, sem
+confirmação em cascata, e o acesso é cortado imediatamente no servidor. O envio para o
+espelho para na hora.
+
+**Retenção:** cada dia enviado é **apagado automaticamente após 90 dias** no servidor. O seu
+histórico completo continua morando só no seu aparelho.
+
+**Base legal:** o seu **consentimento** (LGPD, art. 11, I — dado sensível), colhido de forma
+específica e destacada na tela de autorização. Revogá-lo é o botão Remover.
 
 ## Avisos (notificações)
 
@@ -114,7 +172,8 @@ Não pedimos localização, câmera, microfone, contatos, armazenamento externo 
 
 ## Compras
 
-O Lembrô é gratuito e funcional. Há uma versão completa paga, opcional.
+O Lembrô é gratuito e funcional. Há uma versão completa paga, opcional, e uma assinatura
+separada para quem acompanha outra pessoa.
 
 **Quem processa o pagamento é a loja de aplicativos** (Google Play ou App Store), que é a
 vendedora legal. O Lembrô **não vê, não recebe e não armazena** dados de pagamento: nem
@@ -139,6 +198,12 @@ que vende pela loja, e que não passa por nós: não recebemos, não vemos e nã
 acessar essas informações. Nada dos seus lembretes ou registros é enviado por esse caminho.
 O que o Google faz com esses dados é regido pela política de privacidade dele, ligada acima.
 
+**E sobre o Firebase.** A biblioteca do Firebase, usada pelo acompanhamento, está presente no
+aplicativo — mas só conversa com a internet quando existe um pareamento seu. Não incluímos o
+Firebase Analytics nem o Crashlytics: do Firebase, usamos exatamente dois serviços, o banco
+do espelho (Firestore) e a identidade anônima (Authentication), descritos na seção do
+acompanhamento.
+
 Como consequência, também **não conseguimos** recuperar seus dados se você perder o celular
 sem ter salvo uma cópia — e é por isso que a cópia de segurança existe.
 
@@ -159,7 +224,8 @@ diretamente, sem depender de nós e sem prazo de espera:
 | **Corrigir** | Editar o lembrete, ou corrigir/apagar um registro no histórico |
 | **Portabilidade** | O arquivo da cópia de segurança é JSON aberto, não um formato fechado |
 | **Eliminar** | Apagar o lembrete, ou desinstalar o aplicativo — desinstalar remove o banco de dados inteiro |
-| **Revogar consentimento** | Desinstalar. Não há nada nosso para revogar, porque não há nada nosso |
+| **Eliminar o espelho do acompanhamento** | Configurações → Quem me acompanha → Remover corta o acesso na hora; o que já subiu se apaga sozinho em até 90 dias. Para eliminação imediata do que está no servidor, escreva para o contato no topo |
+| **Revogar consentimento** | Do acompanhamento: o botão Remover. Do resto: desinstalar — não há mais nada nosso para revogar |
 
 Se ainda assim você quiser falar conosco sobre privacidade, use o contato no topo.
 
@@ -167,39 +233,41 @@ Se ainda assim você quiser falar conosco sobre privacidade, use o contato no to
 
 Os dados ficam no seu aparelho pelo tempo que você quiser. **Desinstalar o aplicativo apaga
 o banco de dados.** Não há cópia nossa, portanto não há nada que sobreviva à desinstalação —
-exceto os arquivos de cópia de segurança que você mesmo tenha guardado em outro lugar.
+exceto os arquivos de cópia de segurança que você mesmo tenha guardado em outro lugar e, se
+você usa o acompanhamento, os dias já enviados ao espelho, que expiram sozinhos em até 90
+dias.
 
 ## Segurança
 
 Os dados residem na área privada do aplicativo, protegida pelo sistema operacional: outros
-aplicativos não conseguem lê-la. Não há transmissão pela rede, o que elimina a classe
-inteira de riscos de interceptação e de vazamento em servidor.
+aplicativos não conseguem lê-la. Fora o espelho do acompanhamento — que só existe com a sua
+autorização, viaja cifrado (TLS) e carrega o mínimo descrito acima —, não há transmissão
+pela rede, o que elimina a classe inteira de riscos de interceptação e de vazamento em
+servidor para todo o resto.
 
 Recomendamos manter a tela de bloqueio do celular ativa, com senha ou biometria — é ela que
 protege qualquer aplicativo, inclusive este, se o aparelho for perdido.
 
 ## Incidentes
 
-Não mantemos servidor nem base de dados com informações de usuários, então não existe
-infraestrutura nossa a ser invadida. Caso alguma vulnerabilidade seja identificada no
-aplicativo, corrigiremos e publicaremos uma atualização; se houver risco relevante aos
-titulares, comunicaremos pelos canais da loja e por esta página, conforme o artigo 48 da
-LGPD.
+A única base de dados fora do aparelho é o espelho do acompanhamento, descrito acima — com o
+mínimo de dado possível, identidade anônima e leitura restrita por regra de servidor. Caso
+alguma vulnerabilidade seja identificada no aplicativo ou nessas regras, corrigiremos e
+publicaremos uma atualização; se houver risco relevante aos titulares, comunicaremos pelos
+canais da loja e por esta página, conforme o artigo 48 da LGPD.
 
 ## Mudanças nesta política
 
-Se algo mudar — em especial se alguma versão futura passar a enviar dados para fora do
-aparelho, como um eventual acompanhamento por um familiar — esta página será atualizada
-**antes** do lançamento, com a data alterada no topo, e o aplicativo pedirá seu
-**consentimento específico e destacado** na tela. Uma função assim nunca será ligada em
-silêncio ou por padrão.
+A versão anterior desta política prometia: se alguma função passasse a enviar dados para
+fora do aparelho, esta página seria atualizada **antes** do lançamento e o aplicativo
+pediria **consentimento específico e destacado** na tela. O acompanhamento por um
+responsável é exatamente esse caso, e foi assim que ele chegou: descrito aqui antes de
+existir na loja, desligado por padrão, e ligado somente pelo seu toque em "Autorizar".
+
+A promessa continua valendo para o que vier: mudança que amplie o que sai do aparelho será
+publicada aqui antes, com a data alterada no topo, e nunca ligada em silêncio ou por padrão.
 
 ## Lei aplicável
 
 Esta política é regida pela legislação brasileira, em especial a Lei nº 13.709/2018 (LGPD) e
 a Lei nº 8.078/1990 (Código de Defesa do Consumidor).
-
----
-
-*Documento mantido em [docs/legal/politica-de-privacidade.md](politica-de-privacidade.md).
-A versão publicada precisa estar acessível numa URL pública, exigida pelo Google Play.*
