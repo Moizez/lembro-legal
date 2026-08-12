@@ -1,7 +1,7 @@
 # Política de Privacidade do Lembrô
 
 **Aplicativo:** Lembrô (`com.damcode.lembro`)
-**Última atualização:** 1º de agosto de 2026
+**Última atualização:** 11 de agosto de 2026
 
 ---
 
@@ -126,6 +126,25 @@ editar nada.
 
 **Você fica sabendo:** enquanto alguém acompanha, a tela inicial mostra um selo permanente
 com o nome da pessoa. Não existe modo invisível.
+
+**Também vai um sinal de que o aplicativo foi aberto.** Junto de cada dia enviado viaja a hora
+do envio, e o envio acontece quando você abre o Lembrô — não só quando você registra alguma
+coisa. Isso existe por um motivo específico: sem ele, um dia sem nenhum registro ficava
+idêntico a um dia em que o celular passou na gaveta, e quem acompanha não tinha como saber se
+foi esquecimento ou se o aparelho ficou desligado. Com o sinal, o painel dele consegue dizer
+"o Lembrô não foi aberto neste dia" em vez de sugerir que nada foi tomado.
+
+O que isso significa em termos de dado: quem acompanha passa a conseguir estimar **quando você
+usou o aplicativo pela última vez**. Não é localização, não é uso do celular em geral, não é
+tela nenhuma além do Lembrô — é a hora do último envio, e nada mais. Se você preferir não
+enviar isso, o caminho é o mesmo de tudo aqui: remover o acompanhamento.
+
+**Quem acompanha pode encaminhar o que vê.** O aplicativo dele tem um botão para mandar o dia
+em texto — para um irmão, para um médico. O texto sai identificado como enviado por quem
+acompanha, e leva o mesmo conteúdo do painel: nomes, horários e se foi registrado. **Não leva
+a dosagem nem suas anotações**, que nunca saem do seu aparelho. Ainda assim vale você saber:
+autorizar alguém a ver é autorizar alguém que pode contar a terceiros, como aconteceria se a
+pessoa tirasse uma foto da tela.
 
 **Para desligar:** Configurações → Quem me acompanha → Remover. **Um toque**, sem
 confirmação em cascata. O acesso é cortado na hora, o envio para. E o aplicativo **apaga da
