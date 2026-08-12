@@ -91,8 +91,11 @@ O Lembrô é gratuito e funcional. **Nunca dependem de pagamento:** criar quanto
 você quiser, receber os avisos, registrar (pelo botão ou pela etiqueta), usar o aplicativo
 sem internet e salvar uma cópia de segurança completa.
 
-O **Lembrô completo** é opcional e libera: etiquetas sem limite, histórico visível além dos
-últimos 30 dias, o nível insistente do aviso e o resumo do período. Se o plano expirar,
+**Todos os níveis de aviso são gratuitos**, inclusive o insistente e o alarme. Insistir é a
+forma mais forte de avisar, e avisar nunca depende de pagamento.
+
+O **Lembrô completo** é opcional e libera três coisas: etiquetas sem limite, histórico visível
+além dos últimos 30 dias e o resumo do período. Se o plano expirar,
 **nada é apagado**: o que você já criou continua funcionando e registrando, e o histórico
 completo permanece no aparelho e na cópia de segurança.
 
