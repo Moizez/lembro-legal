@@ -1,0 +1,26 @@
+# Os idiomas do site, e onde cada documento vive em cada um.
+#
+# Fonte única do trocador de idioma (`_includes/idiomas.html`) e das tags `hreflang` do
+# `_layouts/default.html`. Idioma novo entra aqui e aparece nas duas coisas de uma vez.
+#
+# A chave de cada documento (`home`, `privacy`, `terms`) é o que a página declara em `doc:` no
+# cabeçalho. O nome do idioma vem escrito **no próprio idioma** — é assim que um trocador se lê
+# para quem não entende a língua da página em que caiu.
+
+- code: pt-BR
+  name: Português
+  home: /
+  privacy: /privacidade.html
+  terms: /termos.html
+
+- code: en
+  name: English
+  home: /en/
+  privacy: /en/privacy.html
+  terms: /en/terms.html
+
+- code: es
+  name: Español
+  home: /es/
+  privacy: /es/privacidad.html
+  terms: /es/terminos.html

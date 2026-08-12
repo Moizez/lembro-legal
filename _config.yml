@@ -1,3 +1,20 @@
 title: Lembrô
 description: Política de privacidade e termos de uso do Lembrô
 theme: jekyll-theme-minimal
+
+# O idioma padrão do site, e a origem dos documentos.
+#
+# O `jekyll-theme-minimal` escrevia `<html lang="en-US">` em tudo, porque é o valor que ele usa
+# quando `site.lang` não existe — então a política em português era anunciada como inglês, e um
+# leitor de tela lia o texto com fonética inglesa. Num documento cujo público é justamente quem
+# mais usa leitor de tela, isso não é detalhe.
+#
+# Cada página em outro idioma sobrescreve isto com `lang:` no próprio cabeçalho.
+lang: pt-BR
+
+# ⚠️ `privacidade.html` e `termos.html` ficam na RAIZ e não mudam de lugar.
+#
+# As duas URLs estão no formulário da Google Play, e a Play exige que o endereço da política
+# responda enquanto o aplicativo estiver publicado — URL morta pode suspender o aplicativo. É por
+# isso que o português está na raiz e as traduções em `en/` e `es/`, e não os três em pastas
+# simétricas: a simetria custaria a URL que já está registrada.

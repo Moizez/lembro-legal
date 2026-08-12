@@ -1,3 +1,9 @@
+---
+title: Política de Privacidade do Lembrô
+lang: pt-BR
+doc: privacy
+---
+
 # Política de Privacidade do Lembrô
 
 **Aplicativo:** Lembrô (`com.damcode.lembro`)

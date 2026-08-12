@@ -1,0 +1,26 @@
+{%- comment -%}
+  O trocador de idioma, no topo de toda página.
+
+  São **links normais**, nunca aba com JavaScript, e por dois motivos. O primeiro é que quem
+  revisa a ficha da loja pode chegar aqui com JavaScript desligado, e a política precisa abrir.
+  O segundo é que aba única daria uma URL só para os três idiomas, e a Google Play e a App Store
+  pedem a URL da política **por idioma da ficha** — um campo para cada localização publicada.
+
+  Cada nome vem escrito no próprio idioma e carrega `lang` e `hreflang`: é o que faz um leitor de
+  tela pronunciar "Español" como espanhol dentro de uma página em português, em vez de soletrar.
+
+  Para qual página apontar: a própria página diz `doc: privacy` ou `doc: terms` no cabeçalho, e a
+  busca é feita em `_data/idiomas.yml`. Sem isso o trocador da política levaria aos termos.
+{%- endcomment -%}
+{%- assign doc = page.doc | default: 'home' -%}
+<nav class="idiomas" aria-label="Idioma · Language · Idioma">
+  {%- for idioma in site.data.idiomas -%}
+    {%- assign destino = idioma[doc] -%}
+    {%- if idioma.code == page.lang -%}
+      <strong lang="{{ idioma.code }}">{{ idioma.name }}</strong>
+    {%- else -%}
+      <a lang="{{ idioma.code }}" hreflang="{{ idioma.code }}" href="{{ destino | relative_url }}">{{ idioma.name }}</a>
+    {%- endif -%}
+    {%- unless forloop.last %} · {% endunless -%}
+  {%- endfor -%}
+</nav>

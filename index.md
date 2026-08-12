@@ -1,3 +1,9 @@
+---
+title: Lembrô
+lang: pt-BR
+doc: home
+---
+
 # Lembrô
 
 Lembrete de ações que se repetem, com registro por etiqueta NFC. Feito para pessoas idosas:

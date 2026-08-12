@@ -1,3 +1,9 @@
+---
+title: Termos de Uso do Lembrô
+lang: pt-BR
+doc: terms
+---
+
 # Termos de Uso do Lembrô
 
 **Aplicativo:** Lembrô (`com.damcode.lembro`)
@@ -95,9 +101,9 @@ sem internet e salvar uma cópia de segurança completa.
 forma mais forte de avisar, e avisar nunca depende de pagamento.
 
 O **Lembrô completo** é opcional e libera três coisas: etiquetas sem limite, histórico visível
-além dos últimos 30 dias e o resumo do período. Se o plano expirar,
-**nada é apagado**: o que você já criou continua funcionando e registrando, e o histórico
-completo permanece no aparelho e na cópia de segurança.
+além dos últimos 30 dias e o resumo do período. Se o plano expirar, **nada é apagado**: o que
+você já criou continua funcionando e registrando, e o histórico completo permanece no aparelho
+e na cópia de segurança.
 
 O **acompanhamento por um responsável** é uma assinatura separada ("Acompanhar alguém"),
 paga por **quem acompanha** — quem é acompanhado nunca paga por isso. Sobre ela:
