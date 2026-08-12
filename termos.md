@@ -1,7 +1,7 @@
 # Termos de Uso do Lembrô
 
 **Aplicativo:** Lembrô (`com.damcode.lembro`)
-**Última atualização:** 1º de agosto de 2026
+**Última atualização:** 11 de agosto de 2026
 
 ---
 
@@ -39,13 +39,26 @@ Você é responsável por:
 
 Isto é a parte mais importante destes Termos, e está escrita sem rodeio:
 
-- Os avisos são agendados no seu celular, pelo sistema operacional. **Eles podem atrasar
-  alguns minutos**, e podem falhar por causas fora do nosso alcance: economia de bateria,
-  otimização agressiva do fabricante, "forçar parada" do aplicativo, celular desligado, sem
-  bateria, no modo avião ou com as notificações silenciadas.
-- Deliberadamente **não usamos alarme exato nem alarme em tela cheia.** São permissões que o
-  Android restringe a despertadores e chamadas; usá-las impediria a publicação do aplicativo.
-  A consequência honesta é a do item acima: o aviso é confiável, não é infalível.
+- Os avisos são agendados no seu celular, pelo sistema operacional. **Eles podem atrasar**, e
+  podem falhar por causas fora do nosso alcance: economia de bateria, otimização agressiva do
+  fabricante, "forçar parada" do aplicativo, celular desligado, sem bateria, no modo avião ou
+  com as notificações silenciadas.
+- **Você pode reduzir o atraso concedendo duas permissões**, e o aplicativo funciona sem
+  qualquer uma delas:
+  - **"Alarmes e lembretes"** faz o horário ser respeitado sem ajuste do sistema. Sem ela, o
+    Android agrupa avisos para poupar bateria e o atraso pode passar de alguns minutos —
+    principalmente com o celular parado há horas.
+  - **"Tela cheia"** permite que o nível **Alarme** apareça por cima da tela bloqueada. Sem
+    ela, o mesmo aviso continua tocando com som de alarme, só que como notificação.
+
+  As duas são concedidas por você, nos ajustes do celular, e podem ser retiradas a qualquer
+  momento. O aplicativo mostra na tela inicial qual está faltando.
+- O nível **Alarme** é escolha sua, lembrete por lembrete: ele toca com o som de alarme do
+  aparelho até você desligar, adiar ou registrar. Os outros três níveis avisam como
+  notificação comum. Nada disso muda o aviso dos lembretes que você já tem — o padrão continua
+  sendo o aviso discreto.
+- Ainda assim, **o aviso é confiável, não é infalível.** Nenhuma permissão impede que o
+  fabricante do seu celular encerre o aplicativo em segundo plano.
 - **Para medicação crítica, mantenha uma redundância.** Um segundo alarme no relógio, uma
   caixa organizadora semanal, ou outra pessoa avisando. Não use o Lembrô como única barreira
   entre você e uma dose que não pode ser perdida.
