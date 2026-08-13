@@ -9,7 +9,7 @@ tagline: Lembrô privacy policy and terms of use
 # Lembrô Terms of Use
 
 **App:** Lembrô (`com.damcode.lembro`)
-**Last updated:** 11 August 2026
+**Last updated:** 13 August 2026
 
 > **This is a translation, provided for convenience.** Lembrô is developed in Brazil and these
 > terms are governed by Brazilian law. If the two versions ever disagree, the
@@ -163,6 +163,10 @@ waived.
   under article 49 of Brazil's Consumer Protection Code. The refund request is processed by the
   store, which has its own policy — if it refuses a request within that window, talk to us using
   the contact below.
+- **Where your country's law grants more, your country's law applies.** The 7 days above are the
+  minimum under Brazilian law. If you bought from a country whose consumer law gives a longer
+  window or an additional right, that one prevails — nothing written here reduces what the law of
+  your domicile guarantees.
 
 ## 8. Who can use it
 
@@ -184,6 +188,10 @@ default.
 
 These Terms are governed by Brazilian law. For consumers, the courts of their own domicile are
 assured, under the Consumer Protection Code, regardless of any provision to the contrary.
+
+**Outside Brazil**, this does not set aside the consumer protection rules of your country of
+domicile that cannot be waived by contract. Choosing Brazilian law is there to give everyone a
+single text to read, not to take anyone's rights away.
 
 ## 11. If the app is discontinued
 

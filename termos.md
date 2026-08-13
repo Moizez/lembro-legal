@@ -7,7 +7,7 @@ doc: terms
 # Termos de Uso do Lembrô
 
 **Aplicativo:** Lembrô (`com.damcode.lembro`)
-**Última atualização:** 11 de agosto de 2026
+**Última atualização:** 13 de agosto de 2026
 
 ---
 
@@ -160,6 +160,10 @@ renunciados.
   corridos, conforme o artigo 49 do Código de Defesa do Consumidor. O pedido de reembolso é
   processado pela loja, que tem política própria — se ela recusar um pedido dentro desse
   prazo, fale conosco pelo contato abaixo.
+- **Onde a lei do seu país garantir mais, vale a lei do seu país.** Os 7 dias acima são o
+  mínimo da lei brasileira. Se você comprou de um país cuja lei de consumidor dá prazo maior
+  ou direito adicional, é o dela que vale — nada escrito aqui reduz o que a lei do seu
+  domicílio garante.
 
 ## 8. Quem pode usar
 
@@ -182,6 +186,10 @@ padrão.
 Estes Termos são regidos pela legislação brasileira. Para o consumidor, fica assegurado o
 foro do seu domicílio, conforme o Código de Defesa do Consumidor, independentemente de
 qualquer disposição em contrário.
+
+**Fora do Brasil**, isto não afasta as normas de proteção ao consumidor do seu país de
+domicílio que não podem ser afastadas por contrato. A escolha da lei brasileira serve para
+dar um texto único a quem lê, não para tirar direito de ninguém.
 
 ## 11. Se o aplicativo for descontinuado
 

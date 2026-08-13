@@ -9,7 +9,7 @@ tagline: Política de privacidad y términos de uso de Lembrô
 # Términos de Uso de Lembrô
 
 **Aplicación:** Lembrô (`com.damcode.lembro`)
-**Última actualización:** 11 de agosto de 2026
+**Última actualización:** 13 de agosto de 2026
 
 > **Esta es una traducción, por conveniencia.** Lembrô se desarrolla en Brasil y estos términos
 > se rigen por la legislación brasileña. Si las dos versiones llegaran a divergir, prevalece la
@@ -169,6 +169,10 @@ renunciados.
   días corridos, conforme el artículo 49 del Código de Defensa del Consumidor de Brasil. El
   pedido de reembolso lo procesa la tienda, que tiene política propia — si ella rechaza un
   pedido dentro de ese plazo, hable con nosotros por el contacto de abajo.
+- **Donde la ley de su país garantice más, vale la ley de su país.** Los 7 días de arriba son el
+  mínimo de la ley brasileña. Si usted compró desde un país cuya ley de consumidor da un plazo
+  mayor o un derecho adicional, es esa la que vale — nada de lo escrito aquí reduce lo que la ley
+  de su domicilio garantiza.
 
 ## 8. Quién puede usarla
 
@@ -190,6 +194,10 @@ antes, exigirá su consentimiento específico en la pantalla y nunca se encender
 Estos Términos se rigen por la legislación brasileña. Para el consumidor, queda asegurado el
 fuero de su domicilio, conforme el Código de Defensa del Consumidor, independientemente de
 cualquier disposición en contrario.
+
+**Fuera de Brasil**, esto no aparta las normas de protección al consumidor de su país de
+domicilio que no pueden apartarse por contrato. Elegir la ley brasileña sirve para dar un texto
+único a quien lee, no para quitarle derechos a nadie.
 
 ## 11. Si la aplicación se descontinúa
 
