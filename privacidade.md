@@ -165,6 +165,26 @@ contato no topo e apagamos. O seu histórico completo continua morando só no se
 **Base legal:** o seu **consentimento** (LGPD, art. 11, I — dado sensível), colhido de forma
 específica e destacada na tela de autorização. Revogá-lo é o botão Remover.
 
+## Atividades do app de saúde (Health Connect) — opcional
+
+Se você quiser, um lembrete de caminhada, corrida ou bicicleta pode ser **registrado sozinho** a
+partir do que o seu relógio ou celular gravou num app de saúde. O Lembrô lê isso pelo **Health
+Connect**, o serviço do Android que guarda esses dados no seu aparelho.
+
+- **Só acontece se você ligar**, lembrete por lembrete, e der a permissão na tela do Android.
+- **O que é lido:** só as **sessões de exercício** do tipo escolhido, e de cada uma só o tipo, o
+  horário de começo e de fim e se ela foi medida pelo aparelho ou digitada. **Nunca** lemos passos,
+  distância, calorias, batimento, trajeto ou localização.
+- **Até onde vai:** até 7 dias para trás, e nunca antes do dia em que o lembrete foi criado.
+- **O que vira:** um registro comum do lembrete, igual aos que você faz pelo botão. Ele fica no seu
+  aparelho e entra na cópia de segurança. Ele só vai para alguém que acompanha você **se você tiver
+  autorizado o acompanhamento**, e aí vai só como "registrado às 07:10", sem dizer que veio do app de
+  saúde.
+- **Não usamos esses dados para mais nada**: nem publicidade, nem perfil, nem envio para nós ou para
+  terceiros.
+- **Para parar:** desligue no próprio lembrete ou retire a permissão nos ajustes do Health Connect.
+  O que já foi registrado continua no histórico, e você apaga quando quiser.
+
 ## Avisos (notificações)
 
 Os avisos são gerados **dentro do seu celular**, pelo próprio aplicativo, e agendados no
@@ -195,6 +215,7 @@ etiquetas. Não usamos NFC para pagamento nem para identificar você.
 | Notificações | Avisar na hora do lembrete |
 | Alarme durante economia de energia | Fazer o aviso chegar mesmo com o celular parado |
 | Cobrança no aplicativo (*billing*) | Comprar o Lembrô completo pela loja |
+| Ler exercícios no Health Connect (opcional) | Registrar sozinho o lembrete de caminhada, corrida ou bicicleta que você ligou ao app de saúde |
 
 Não pedimos localização, câmera, microfone, contatos, armazenamento externo nem telefone.
 

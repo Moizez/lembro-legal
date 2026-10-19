@@ -168,6 +168,27 @@ we will delete it. Your full history goes on living only on your device.
 **Legal basis:** your **consent** (LGPD, art. 11, I — sensitive data), collected specifically
 and prominently on the authorisation screen. Revoking it is the Remove button.
 
+## Health app activities (Health Connect) — optional
+
+If you want, a walking, running or cycling reminder can be **recorded on its own** from what your
+watch or phone saved in a health app. Lembrô reads it through **Health Connect**, the Android service
+that keeps this data on your device.
+
+- **It only happens if you turn it on**, reminder by reminder, and grant the permission on Android's
+  screen.
+- **What is read:** only **exercise sessions** of the chosen type, and of each one only the type, the
+  start and end time, and whether the device measured it or it was typed in. We **never** read steps,
+  distance, calories, heart rate, route or location.
+- **How far back:** up to 7 days, and never before the day the reminder was created.
+- **What it becomes:** a regular record of the reminder, like the ones you make with the button. It
+  stays on your device and goes into the backup copy. It only reaches someone who follows you **if
+  you authorized following**, and then only as "recorded at 07:10", without saying it came from the
+  health app.
+- **We use this data for nothing else**: no advertising, no profiling, nothing sent to us or to third
+  parties.
+- **To stop:** turn it off in the reminder itself or remove the permission in Health Connect's
+  settings. What was already recorded stays in the history, and you can delete it whenever you want.
+
 ## Notifications
 
 Notifications are generated **inside your phone**, by the app itself, and scheduled with the
@@ -198,6 +219,7 @@ tags. We do not use NFC for payments or to identify you.
 | Notifications | Notifying you at the reminder's time |
 | Alarms during battery saving | Getting the notification through even with the phone idle |
 | In-app billing | Buying full Lembrô through the store |
+| Read exercises in Health Connect (optional) | Record on its own the walking, running or cycling reminder you linked to the health app |
 
 We do not ask for location, camera, microphone, contacts, external storage or phone.
 
