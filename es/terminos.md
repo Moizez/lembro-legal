@@ -9,7 +9,7 @@ tagline: Política de privacidad y términos de uso de Lembrô
 # Términos de Uso de Lembrô
 
 **Aplicación:** Lembrô (`com.damcode.lembro`)
-**Última actualización:** 13 de agosto de 2026
+**Última actualización:** 19 de octubre de 2026
 
 > **Esta es una traducción, por conveniencia.** Lembrô se desarrolla en Brasil y estos términos
 > se rigen por la legislación brasileña. Si las dos versiones llegaran a divergir, prevalece la
@@ -108,10 +108,11 @@ internet y guardar una copia de seguridad completa.
 **Todos los niveles de aviso son gratuitos**, incluidos el insistente y la alarma. Insistir es
 la forma más fuerte de avisar, y ser avisado nunca depende de pago.
 
-**Lembrô completo** es opcional y libera tres cosas: etiquetas sin límite, historial visible más
-allá de los últimos 30 días y el resumen del período. Si el plan vence, **nada se borra**: lo
-que usted ya creó sigue funcionando y registrando, y el historial completo permanece en el
-aparato y en la copia de seguridad.
+**Lembrô completo** es opcional y libera: etiquetas sin límite, historial visible más allá de los
+últimos 30 días, el resumen del período, el informe del tratamiento y las metas de la semana y
+del mes (la meta del día es gratis). Si el plan vence, **nada se borra**: lo que usted ya creó
+sigue funcionando y registrando, las metas quedan guardadas, y el historial completo permanece en
+el aparato y en la copia de seguridad.
 
 **El acompañamiento por un responsable** es una suscripción separada ("Acompañar a alguien"),
 pagada por **quien acompaña** — quien es acompañado nunca paga por eso. Sobre ella:

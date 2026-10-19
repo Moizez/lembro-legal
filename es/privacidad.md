@@ -9,7 +9,7 @@ tagline: Política de privacidad y términos de uso de Lembrô
 # Política de Privacidad de Lembrô
 
 **Aplicación:** Lembrô (`com.damcode.lembro`)
-**Última actualización:** 11 de agosto de 2026
+**Última actualización:** 19 de octubre de 2026
 
 > **Esta es una traducción, por conveniencia.** Lembrô se desarrolla en Brasil y esta política
 > se rige por la legislación brasileña. Si las dos versiones llegaran a divergir, prevalece la

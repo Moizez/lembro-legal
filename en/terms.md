@@ -9,7 +9,7 @@ tagline: Lembrô privacy policy and terms of use
 # Lembrô Terms of Use
 
 **App:** Lembrô (`com.damcode.lembro`)
-**Last updated:** 13 August 2026
+**Last updated:** 19 October 2026
 
 > **This is a translation, provided for convenience.** Lembrô is developed in Brazil and these
 > terms are governed by Brazilian law. If the two versions ever disagree, the
@@ -105,10 +105,10 @@ internet connection, and saving a full backup.
 **All notification levels are free**, including insistent and alarm. Insisting is the strongest
 form of notifying, and being notified never depends on payment.
 
-**Full Lembrô** is optional and unlocks three things: unlimited tags, history visible beyond the
-last 30 days, and the period summary. If the plan expires, **nothing is deleted**: what you have
-already created keeps working and recording, and the full history stays on the device and in the
-backup.
+**Full Lembrô** is optional and unlocks: unlimited tags, history visible beyond the last 30 days,
+the period summary, the treatment report, and weekly and monthly goals (the daily goal is free).
+If the plan expires, **nothing is deleted**: what you have already created keeps working and
+recording, goals stay saved, and the full history stays on the device and in the backup.
 
 **Being followed by a carer** is a separate subscription ("Follow someone"), paid by **the
 person who follows** — the person being followed never pays for it. About it:

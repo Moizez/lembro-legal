@@ -7,7 +7,7 @@ doc: privacy
 # Política de Privacidade do Lembrô
 
 **Aplicativo:** Lembrô (`com.damcode.lembro`)
-**Última atualização:** 11 de agosto de 2026
+**Última atualização:** 19 de outubro de 2026
 
 ---
 

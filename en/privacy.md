@@ -9,7 +9,7 @@ tagline: Lembrô privacy policy and terms of use
 # Lembrô Privacy Policy
 
 **App:** Lembrô (`com.damcode.lembro`)
-**Last updated:** 11 August 2026
+**Last updated:** 19 October 2026
 
 > **This is a translation, provided for convenience.** Lembrô is developed in Brazil and this
 > policy is governed by Brazilian law. If the two versions ever disagree, the
