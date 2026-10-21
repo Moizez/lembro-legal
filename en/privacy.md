@@ -9,7 +9,7 @@ tagline: Lembrô privacy policy and terms of use
 # Lembrô Privacy Policy
 
 **App:** Lembrô (`com.damcode.lembro`)
-**Last updated:** 19 October 2026
+**Last updated:** 21 October 2026
 
 > **This is a translation, provided for convenience.** Lembrô is developed in Brazil and this
 > policy is governed by Brazilian law. If the two versions ever disagree, the
@@ -51,11 +51,12 @@ Lembrô can reach:
 | The name and detail of your reminders | Showing them on screen and in the notification |
 | Times, days and repetition | Knowing when to notify you |
 | Records ("took it at 08:12") | Building the history and the carer view |
-| The identifier of your NFC tags and the name you gave them | Recognising the sticker when you tap your phone on it |
+| The identifier of your NFC tags and QR codes and the name you gave them | Recognising the sticker when you tap your phone on it, or the paper when you read the QR code |
+| The package photo, if you choose one | Showing the box on the card and on the alarm screen. It stays only on this device: it does not go into the backup copy, to the person following you, or to us |
 | Your preferences (sound, vibration, notices already seen) | Remembering what you chose |
 
 **We do not ask for and do not store:** your name, e-mail, phone number, national ID, address,
-date of birth, contacts, photos, location, or any advertising identifier.
+date of birth, contacts, location, or any advertising identifier.
 
 **We do not store health values.** Lembrô records that the task **happened**, never its result:
 there is no field for blood pressure, blood sugar, weight or any measurement. That is a product
@@ -174,8 +175,9 @@ If you want, a walking, running or cycling reminder can be **recorded on its own
 watch or phone saved in a health app. Lembrô reads it through **Health Connect**, the Android service
 that keeps this data on your device.
 
-- **It only happens if you turn it on**, reminder by reminder, and grant the permission on Android's
-  screen.
+- **It only starts after you grant the permission** on Android's screen, and the request is made inside
+  the app. In new exercise reminders the link comes suggested already, and you turn it off in the reminder
+  itself.
 - **What is read:** only **exercise sessions** of the chosen type, and of each one only the type, the
   start and end time, and whether the device measured it or it was typed in. We **never** read steps,
   distance, calories, heart rate, route or location.
@@ -210,6 +212,16 @@ you.
 
 The NFC permission on Android is granted at installation and is used only to read and write your
 tags. We do not use NFC for payments or to identify you.
+
+## QR codes
+
+You can use a printed QR code instead of the NFC tag. It holds the same address with a random
+identifier (`lembro://t/…`), without the name of the medicine or any data of yours.
+
+The QR code reader is part of Google Play Services. Lembrô receives only the text read from the QR
+code, never the camera image, and does not ask for camera permission. The image does not leave the
+device through the reader either. The poster to print or send is built on the device itself; when
+you send it, it goes to the destination you choose and does not pass through any server of ours.
 
 ## Permissions and what they are for
 
@@ -250,6 +262,13 @@ Google's servers about how the purchase is working — something that happens in
 sells through the store, and that does not pass through us: we do not receive it, we do not see
 it, and we cannot access it. Nothing from your reminders or records is sent along that path. What
 Google does with that data is governed by its privacy policy, linked above.
+
+**The same caveat applies to the QR code reader.** When you read a QR code through Lembrô, the
+Google Play Services reader sends Google its own diagnostics about how the reading went: device and
+app information, installation identifiers and performance data, such as the zoom level used. That is
+sent by Google, protected in transit, and does not pass through us. The camera image is not part of
+it, and nothing from your reminders or records is sent that way. If you do not read QR codes through
+the app, that reader is not triggered.
 
 **And about Firebase.** The Firebase library, used by the carer feature, is present in the app —
 but it only talks to the internet when a pairing of yours exists. We did not include Firebase

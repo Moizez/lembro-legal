@@ -7,7 +7,7 @@ doc: privacy
 # Política de Privacidade do Lembrô
 
 **Aplicativo:** Lembrô (`com.damcode.lembro`)
-**Última atualização:** 19 de outubro de 2026
+**Última atualização:** 21 de outubro de 2026
 
 ---
 
@@ -46,11 +46,12 @@ dados que só o Lembrô acessa:
 | Nome e detalhe dos seus lembretes | Mostrar na tela e no aviso |
 | Horários, dias e repetição | Saber quando avisar |
 | Registros ("tomei às 08:12") | Montar o histórico e o acompanhamento |
-| Identificador das suas etiquetas NFC e o nome que você deu a elas | Reconhecer o adesivo quando você encosta o celular |
+| Identificador das suas etiquetas NFC e QR codes e o nome que você deu a elas | Reconhecer o adesivo quando você encosta o celular, ou o papel quando você lê o QR code |
+| A foto da embalagem, se você escolher uma | Mostrar a caixa no card e na tela do alarme. Fica só neste aparelho: não vai para a cópia de segurança, nem para quem acompanha, nem para nós |
 | Suas preferências (som, vibração, avisos já vistos) | Lembrar do que você escolheu |
 
 **Não pedimos e não guardamos:** seu nome, e-mail, telefone, CPF, endereço, data de
-nascimento, contatos, fotos, localização, nem qualquer identificador de publicidade.
+nascimento, contatos, localização, nem qualquer identificador de publicidade.
 
 **Não guardamos valores de saúde.** O Lembrô registra que a tarefa **aconteceu**, nunca o
 resultado dela: não há campo para pressão, glicemia, peso ou qualquer medição. Essa é uma
@@ -171,7 +172,8 @@ Se você quiser, um lembrete de caminhada, corrida ou bicicleta pode ser **regis
 partir do que o seu relógio ou celular gravou num app de saúde. O Lembrô lê isso pelo **Health
 Connect**, o serviço do Android que guarda esses dados no seu aparelho.
 
-- **Só acontece se você ligar**, lembrete por lembrete, e der a permissão na tela do Android.
+- **Só começa depois que você der a permissão** na tela do Android, e o pedido é feito dentro do
+  app. Em lembretes de exercício novos a ligação já vem sugerida, e você a desliga no próprio lembrete.
 - **O que é lido:** só as **sessões de exercício** do tipo escolhido, e de cada uma só o tipo, o
   horário de começo e de fim e se ela foi medida pelo aparelho ou digitada. **Nunca** lemos passos,
   distância, calorias, batimento, trajeto ou localização.
@@ -206,6 +208,16 @@ descobre nada sobre você.
 
 A permissão de NFC no Android é concedida na instalação e serve só para ler e gravar as suas
 etiquetas. Não usamos NFC para pagamento nem para identificar você.
+
+## QR codes
+
+Você pode usar um QR code impresso no lugar da etiqueta NFC. Ele guarda o mesmo endereço com
+identificador aleatório (`lembro://t/…`), sem o nome do medicamento nem dado seu.
+
+O leitor de QR code é do Google Play Services. O Lembrô recebe só o texto lido no QR code,
+nunca a imagem da câmera, e não pede permissão de câmera. A imagem também não sai do aparelho
+pelo leitor. O cartaz para imprimir ou enviar é montado no próprio aparelho; quando você o envia,
+ele vai para o destino que você escolher e não passa por nenhum servidor nosso.
 
 ## Permissões e para que servem
 
@@ -246,6 +258,13 @@ com os servidores dele sobre o funcionamento da compra — algo que acontece em 
 que vende pela loja, e que não passa por nós: não recebemos, não vemos e não conseguimos
 acessar essas informações. Nada dos seus lembretes ou registros é enviado por esse caminho.
 O que o Google faz com esses dados é regido pela política de privacidade dele, ligada acima.
+
+**A mesma ressalva vale para o leitor de QR code.** Quando você lê um QR code pelo Lembrô, o
+leitor do Google Play Services envia ao Google um diagnóstico próprio sobre o funcionamento da
+leitura: informações do aparelho e do aplicativo, identificadores de instalação e dados de
+desempenho, como o nível de zoom usado. Esse envio é do Google, protegido em trânsito, e não
+passa por nós. A imagem da câmera não faz parte dele, e nada dos seus lembretes ou registros é
+enviado por esse caminho. Quem não lê QR code pelo aplicativo não aciona esse leitor.
 
 **E sobre o Firebase.** A biblioteca do Firebase, usada pelo acompanhamento, está presente no
 aplicativo — mas só conversa com a internet quando existe um pareamento seu. Não incluímos o

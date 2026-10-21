@@ -9,7 +9,7 @@ tagline: Política de privacidad y términos de uso de Lembrô
 # Política de Privacidad de Lembrô
 
 **Aplicación:** Lembrô (`com.damcode.lembro`)
-**Última actualización:** 19 de octubre de 2026
+**Última actualización:** 21 de octubre de 2026
 
 > **Esta es una traducción, por conveniencia.** Lembrô se desarrolla en Brasil y esta política
 > se rige por la legislación brasileña. Si las dos versiones llegaran a divergir, prevalece la
@@ -52,11 +52,12 @@ base de datos a la que solo accede Lembrô:
 | Nombre y detalle de sus recordatorios | Mostrarlos en la pantalla y en el aviso |
 | Horarios, días y repetición | Saber cuándo avisar |
 | Registros ("lo tomé a las 08:12") | Armar el historial y el acompañamiento |
-| Identificador de sus etiquetas NFC y el nombre que usted les dio | Reconocer la etiqueta cuando usted acerca el celular |
+| Identificador de sus etiquetas NFC y códigos QR y el nombre que usted les dio | Reconocer la etiqueta cuando usted acerca el celular, o el papel cuando usted lee el código QR |
+| La foto del envase, si usted elige una | Mostrar la caja en la tarjeta y en la pantalla de la alarma. Queda solo en este aparato: no va a la copia de seguridad, ni a quien le acompaña, ni a nosotros |
 | Sus preferencias (sonido, vibración, avisos ya vistos) | Recordar lo que usted eligió |
 
 **No pedimos y no guardamos:** su nombre, correo, teléfono, documento, dirección, fecha de
-nacimiento, contactos, fotos, ubicación, ni ningún identificador de publicidad.
+nacimiento, contactos, ubicación, ni ningún identificador de publicidad.
 
 **No guardamos valores de salud.** Lembrô registra que la tarea **ocurrió**, nunca el resultado
 de ella: no hay campo para presión, glucemia, peso ni ninguna medición. Es una decisión de
@@ -177,8 +178,9 @@ Si quieres, un recordatorio de caminata, carrera o bicicleta puede **registrarse
 que tu reloj o tu celular guardó en una app de salud. Lembrô lo lee a través de **Health Connect**, el
 servicio de Android que guarda esos datos en tu dispositivo.
 
-- **Solo ocurre si lo activas**, recordatorio por recordatorio, y das el permiso en la pantalla de
-  Android.
+- **Solo empieza después de que des el permiso** en la pantalla de Android, y el pedido se hace dentro de
+  la app. En los recordatorios de ejercicio nuevos el vínculo ya viene sugerido, y lo desactivas en el
+  propio recordatorio.
 - **Qué se lee:** solo las **sesiones de ejercicio** del tipo elegido, y de cada una solo el tipo, la
   hora de inicio y de fin y si la midió el dispositivo o se escribió a mano. **Nunca** leemos pasos,
   distancia, calorías, pulso, recorrido ni ubicación.
@@ -213,6 +215,16 @@ nada sobre usted.
 
 El permiso de NFC en Android se concede en la instalación y sirve solo para leer y grabar sus
 etiquetas. No usamos NFC para pagos ni para identificarlo a usted.
+
+## Códigos QR
+
+Usted puede usar un código QR impreso en lugar de la etiqueta NFC. Guarda la misma dirección con
+identificador aleatorio (`lembro://t/…`), sin el nombre del medicamento ni ningún dato suyo.
+
+El lector de códigos QR es de Google Play Services. Lembrô recibe solo el texto leído en el código
+QR, nunca la imagen de la cámara, y no pide permiso de cámara. La imagen tampoco sale del aparato
+por el lector. El cartel para imprimir o enviar se arma en el propio aparato; cuando usted lo envía,
+va al destino que usted elija y no pasa por ningún servidor nuestro.
 
 ## Permisos y para qué sirven
 
@@ -253,6 +265,13 @@ servidores sobre el funcionamiento de la compra — algo que ocurre en toda apli
 por la tienda, y que no pasa por nosotros: no lo recibimos, no lo vemos y no podemos acceder a
 esa información. Nada de sus recordatorios o registros se envía por ese camino. Lo que Google
 hace con esos datos se rige por su política de privacidad, enlazada arriba.
+
+**La misma salvedad vale para el lector de códigos QR.** Cuando usted lee un código QR con Lembrô, el
+lector de Google Play Services envía a Google un diagnóstico propio sobre el funcionamiento de la
+lectura: información del aparato y de la aplicación, identificadores de instalación y datos de
+rendimiento, como el nivel de zoom usado. Ese envío es de Google, está protegido en tránsito y no
+pasa por nosotros. La imagen de la cámara no forma parte de él, y nada de sus recordatorios o
+registros se envía por ese camino. Quien no lee códigos QR con la aplicación no activa ese lector.
 
 **Y sobre Firebase.** La biblioteca de Firebase, usada por el acompañamiento, está presente en
 la aplicación — pero solo habla con internet cuando existe una vinculación suya. No incluimos

@@ -7,7 +7,7 @@ doc: terms
 # Termos de Uso do Lembrô
 
 **Aplicativo:** Lembrô (`com.damcode.lembro`)
-**Última atualização:** 19 de outubro de 2026
+**Última atualização:** 21 de outubro de 2026
 
 ---
 
@@ -99,6 +99,8 @@ sem internet e salvar uma cópia de segurança completa.
 
 **Todos os níveis de aviso são gratuitos**, inclusive o insistente e o alarme. Insistir é a
 forma mais forte de avisar, e avisar nunca depende de pagamento.
+
+O plano gratuito inclui **3 etiquetas, NFC ou QR code**.
 
 O **Lembrô completo** é opcional e libera: etiquetas sem limite, histórico visível além dos
 últimos 30 dias, o resumo do período, o relatório do tratamento e as metas de semana e de mês (a

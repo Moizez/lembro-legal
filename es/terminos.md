@@ -9,7 +9,7 @@ tagline: Política de privacidad y términos de uso de Lembrô
 # Términos de Uso de Lembrô
 
 **Aplicación:** Lembrô (`com.damcode.lembro`)
-**Última actualización:** 19 de octubre de 2026
+**Última actualización:** 21 de octubre de 2026
 
 > **Esta es una traducción, por conveniencia.** Lembrô se desarrolla en Brasil y estos términos
 > se rigen por la legislación brasileña. Si las dos versiones llegaran a divergir, prevalece la
@@ -107,6 +107,8 @@ internet y guardar una copia de seguridad completa.
 
 **Todos los niveles de aviso son gratuitos**, incluidos el insistente y la alarma. Insistir es
 la forma más fuerte de avisar, y ser avisado nunca depende de pago.
+
+El plan gratuito incluye **3 etiquetas, NFC o código QR**.
 
 **Lembrô completo** es opcional y libera: etiquetas sin límite, historial visible más allá de los
 últimos 30 días, el resumen del período, el informe del tratamiento y las metas de la semana y

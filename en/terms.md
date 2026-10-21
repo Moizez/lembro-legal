@@ -9,7 +9,7 @@ tagline: Lembrô privacy policy and terms of use
 # Lembrô Terms of Use
 
 **App:** Lembrô (`com.damcode.lembro`)
-**Last updated:** 19 October 2026
+**Last updated:** 21 October 2026
 
 > **This is a translation, provided for convenience.** Lembrô is developed in Brazil and these
 > terms are governed by Brazilian law. If the two versions ever disagree, the
@@ -104,6 +104,8 @@ internet connection, and saving a full backup.
 
 **All notification levels are free**, including insistent and alarm. Insisting is the strongest
 form of notifying, and being notified never depends on payment.
+
+The free plan includes **3 tags, NFC or QR code**.
 
 **Full Lembrô** is optional and unlocks: unlimited tags, history visible beyond the last 30 days,
 the period summary, the treatment report, and weekly and monthly goals (the daily goal is free).
